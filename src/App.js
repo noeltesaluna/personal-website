@@ -44,10 +44,7 @@ function App() {
         <section id="school-projects" className="mb-8">
             <h2 className="text-lg font-semibold mb-4">School Projects</h2>
             <p className="mb-4"> Projects below are available upon request due to RMIT's academic integrity.</p>
-            <Project title="The Big Problem" year="2022" img="thebigproblem.png">
-              A static website displaying data about homelessness within Australia. Built in HTML, CSS and Javalin. 
-              Data stored and retrieved using SQLite. Utilised GitHub which allowed collaboration with a partner. 
-            </Project>
+            
             <Project title="Loop Cinemas" year="2023" img="loopcinemas.png">
               Collaborated with a peer using GitHub to develop a full stack cinema website using modern web technologies such as React, GraphQL, and Sequelize with ORM capabilities. 
               The project featured an interactive and dynamic interface, supported by a robust MySQL database managed with phpMyAdmin for efficient data management and retrieval.
@@ -56,6 +53,10 @@ function App() {
             <Project title="Super Price" year="2023" img="superprice.png">
               Collaborated with a team of six in an Agile Scrum environment, utilizing GitHub for version control, Docker for containerization, and GitHub Actions for CI/CD. 
               Employed Maven, Spring Boot, and JUnit to create a back-end with REST APIs, while developing a user-friendly interface using React and TypeScript for the SuperPrice website.
+            </Project>
+            <Project title="The Big Problem" year="2022" img="thebigproblem.png">
+              A static website displaying data about homelessness within Australia. Built in HTML, CSS and Javalin. 
+              Data stored and retrieved using SQLite. Utilised GitHub which allowed collaboration with a partner. 
             </Project>
         </section>
       </main>
