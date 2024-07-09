@@ -1,6 +1,6 @@
-# [Noel Tesaluna's Personal Site](https://noel.tesaluna.com/)
+# noel.tesaluna.com
 
-Welcome to the source code of my personal website!
+Welcome to the source code of my [personal website](https://noel.tesaluna.com/)!
 
 ## 🚀 Quick Start
 
