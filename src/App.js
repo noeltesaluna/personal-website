@@ -11,7 +11,7 @@ function App() {
       <main>
         <section id="about" className='mb-4 pb-4 border-b'>
           <div className="flex items-center">
-            <img src='portrait2.jpg' alt="my face" className='w-32 rounded-xl mr-4'></img>
+            <img src='portrait.jpg' alt="my face" className='w-32 rounded-xl mr-4'></img>
             <div>
               <b className='font-semibold text-lg'>Hello! I'm</b>
               <h2 className="text-2xl font-bold">Noel Tesaluna</h2>
