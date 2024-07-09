@@ -2,7 +2,7 @@ import React from 'react'
 
 function Project({title, img, year, children}) {
   return (
-    <div className='bg-gray-200 p-4 rounded-xl mb-2'>
+    <div className='bg-gray-200 p-4 rounded-xl mb-4'>
         <div className='flex flex-col'>
             <img src={img} alt={title} className="w-auto rounded-xl"></img>
         </div>
