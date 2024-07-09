@@ -6,7 +6,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   return (
-    <div className=" text-slate-950 text-xs max-w-2xl lg:max-w-xl mx-auto pt-12 pb-6 ">
+    <div className=" text-slate-950 text-xs max-w-xl lg:max-w-xl mx-auto pt-12 pb-6 ">
       
       <main>
         <section id="about" className='mb-4 pb-4 border-b'>
