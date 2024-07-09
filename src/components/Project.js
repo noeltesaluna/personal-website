@@ -1,12 +1,14 @@
 import React from 'react'
 
-function Project({title, img, children}) {
+function Project({title, img, year, children}) {
   return (
-    <div className='bg-gray-200 p-4 rounded-xl'>
+    <div className='bg-gray-200 p-4 rounded-xl mb-2'>
         <div className='flex flex-col'>
-            <img src={img} alt={title} className="mb-2 w-auto rounded-xl"></img>
+            <img src={img} alt={title} className="w-auto rounded-xl"></img>
         </div>
-        <h2 className="text-base text-gray-700 font-semibold">{title}</h2>
+        
+        <h2 className="mt-2 text-base text-gray-700 font-semibold">{title}</h2>
+        <p className='mb-2'><b className='font-semibold'>Year:</b> {year}</p>
         {children}
     </div>
 
