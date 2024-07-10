@@ -4,6 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import projects from "./data/projects.json";
+import skills from "./data/skills.json";
 
 function App() {
   return (
@@ -38,8 +39,19 @@ function App() {
 
         <section id="skills" className="mb-4 pb-4 border-b">
         <h2 className="text-lg font-semibold mb-4">Skills</h2>
-        Java, Python, C++, JavaScript, HTML, CSS, React, Node.js, JUnit, Maven, Git, GitHub, Docker, Visual Studio Code, 
-        MySQL, SQLite, phpMyAdmin, Sequelize, GraphQL
+        {skills.map((section, index) => {
+          return (
+            <div className="mb-2" key={index}>
+              <h3 className="font-semibold">{section.heading}</h3>
+                {section.items.map((item) => 
+                  <>
+                    {item}
+                    {index < section.items.length - 1 && ', '}
+                  </>
+                )}
+            </div>
+          )
+        })}
         </section>
 
         <section id="school-projects" className="mb-8">
