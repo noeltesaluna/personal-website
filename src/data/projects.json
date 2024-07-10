@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,  
+        "title": "Loop Cinemas",
+        "year": 2023,
+        "img": "loopcinemas.png",
+        "description": "Collaborated with a peer using GitHub to develop a full stack cinema website using modern web technologies such as React, GraphQL, and Sequelize with ORM capabilities. The project featured an interactive and dynamic interface, supported by a robust MySQL database managed with phpMyAdmin for efficient data management and retrieval. Additionally, the website included an admin page to manage movies, reviews, and users, as well as to display statistics."
+    },
+    {
+        "id": 2,
+        "title": "Super Price",
+        "year": 2023,
+        "img": "superprice.png",
+        "description": "Collaborated with a team of six in an Agile Scrum environment, utilizing GitHub for version control, Docker for containerization, and GitHub Actions for CI/CD. Employed Maven, Spring Boot, and JUnit to create a back-end with REST APIs, while developing a user-friendly interface using React and TypeScript for the SuperPrice website."
+    },
+    {
+        "id": 3,
+        "title": "The Big Problem",
+        "year": 2022,
+        "img": "thebigproblem.png",
+        "description": "A static website displaying data about homelessness within Australia. Built in HTML, CSS and Javalin. Data stored and retrieved using SQLite. Utilised GitHub which allowed collaboration with a partner. "
+    }
+]
