@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "heading": "Languages",
+        "items": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "heading": "Frameworks",
+        "items": [
+            "React",
+            "Node.js",
+            "JUnit",
+            "Maven",
+            "Springboot"
+        ]
+    },
+    {
+        "id": 3,
+        "heading": "Development Tools",
+        "items": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "Visual Studio Code"
+        ]
+    },
+    {
+        "id": 4,
+        "heading": "Database Management",
+        "items": [
+            "MySQL",
+            "SQLite",
+            "phpMyAdmin",
+            "Sequelize",
+            "GraphQL"
+        ]
+    }
+]
