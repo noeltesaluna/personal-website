@@ -14,7 +14,7 @@ git clone https://github.com/noeltesaluna/personal-website.git
 
 1. Install the necessary packages:
    ```bash
-   npm i
+   npm install
    ```
 2. Start the development server:
    ```bash
