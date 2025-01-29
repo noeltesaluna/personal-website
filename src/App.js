@@ -22,7 +22,7 @@ function App() {
           <p className='text-base mt-2 mb-4 text-gray-600'> I recently graduated from RMIT Melbourne with a Bachelor of Computer Science Degree. </p>
           <p className="mb-4">  I am currently seeking to apply my experience and build upon my existing technical skills in the field of software development.</p>
           <div className="flex gap-2">
-            <a href="https://www.linkedin.com/in/noel-tesaluna/" target="_blank" rel="noopener noreferrer" className=" hover:text-gray-500 transition">
+            <a href="mailto:noel.anthony.t@gmail.com" target="_blank" rel="noopener noreferrer" className=" hover:text-gray-500 transition">
               <FontAwesomeIcon icon={faEnvelope} className="text-xl"/>
             </a>    
             <a href="https://github.com/noeltesaluna" target="_blank" rel="noopener noreferrer" className=" hover:text-gray-500 transition">
