@@ -43,12 +43,7 @@ function App() {
           return (
             <div className="mb-2" key={index}>
               <h3 className="font-semibold">{section.heading}</h3>
-                {section.items.map((item) => 
-                  <>
-                    {item}
-                    {index < section.items.length - 1 && ', '}
-                  </>
-                )}
+                {section.items.join(', ')}
             </div>
           )
         })}

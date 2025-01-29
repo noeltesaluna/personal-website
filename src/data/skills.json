@@ -1,46 +1,38 @@
 [
     {
         "id": 1,
-        "heading": "Languages",
+        "heading": "Languages and Libraries",
         "items": [
             "Java",
-            "Python",
-            "C++",
+            "Python (NumPy, Pandas, Matplotlib, Flask)",
             "JavaScript",
-            "HTML",
-            "CSS"
+            "C#"
         ]
     },
     {
         "id": 2,
-        "heading": "Frameworks",
+        "heading": "Technologies",
         "items": [
-            "React",
-            "Node.js",
-            "JUnit",
-            "Maven",
-            "Springboot"
+            "HTML/CSS", 
+            "Tailwind CSS", 
+            "Git", 
+            "GitHub", 
+            "Docker", 
+            "Node", 
+            "AWS (EC2, S3, API Gateway, DynamoDB)", 
+            "Google Cloud (Cloud SQL)", 
+            "Unity", 
+            "Godot"
         ]
     },
     {
         "id": 3,
-        "heading": "Development Tools",
+        "heading": "Frameworks",
         "items": [
-            "Git",
-            "GitHub",
-            "Docker",
-            "Visual Studio Code"
-        ]
-    },
-    {
-        "id": 4,
-        "heading": "Database Management",
-        "items": [
-            "MySQL",
-            "SQLite",
-            "phpMyAdmin",
-            "Sequelize",
-            "GraphQL"
+            "React", 
+            "JUnit", 
+            "Maven", 
+            "Spring Boot"
         ]
     }
 ]
