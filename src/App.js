@@ -19,7 +19,7 @@ function App() {
               <h2 className="text-2xl font-bold">Noel Tesaluna</h2>
             </div>
           </div>
-          <p className='text-base mt-2 mb-4 text-gray-600'> I recently graduated from RMIT Melbourne with a Bachelor of Computer Science Degree. </p>
+          <p className='text-base mt-2 mb-4 text-gray-600'>I recently graduated from RMIT University with a Computer Science Degree. I am currently working at the ATO as a System Analyst Intern</p>
           <p className="mb-4">  I am currently seeking to apply my experience and build upon my existing technical skills in the field of software development.</p>
           <div className="flex gap-2">
             <a href="mailto:noel.anthony.t@gmail.com" target="_blank" rel="noopener noreferrer" className=" hover:text-gray-500 transition">
